@@ -83,9 +83,9 @@ if button:
         label = '聪明，理性又内敛的人'
 
     data = {'label':label}
-    key = 'c0kd2hv8_r8eJSEiZjnna6Po9EoeiEgGYAwXA15QZ'
+    key = 'a0o5tgod_m7ABgBnExQ4GjcWNQvvnJ82KpJreg3HD'
     deta = Deta(key)
-    base = deta.Base("database1")
+    base = deta.Base("databasefortest")
     base.insert(data)
 
     st.success('提交成功')
