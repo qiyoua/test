@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from deta import Deta
 
-
+st.set_page_config(layout='wide')
 st.header('手机收集数据的尝试')
 
 with st.form(key='1'):
